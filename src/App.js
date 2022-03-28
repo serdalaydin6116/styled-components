@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import StyledComponent from './components/styledComponent/StyledComponent';
+import MaterialUi from "./components/materialUi/MaterialUi"
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <header className="App-header">
        
 
-        <StyledComponent />
+        {/* <StyledComponent /> */}
+        <MaterialUi/>
       </header>
     </div>
   );
